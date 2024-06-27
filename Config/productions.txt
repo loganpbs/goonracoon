@@ -2,11 +2,12 @@
 # When you add one then productions.js will automatically add it after saving
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
-Role
-Company
-Date (i.e 2020-present or 2016-2023)
-https://productionimage.jpg 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
+Character and Prop Artist
+Quell
+Shardfall
+2023-2024
+https://drive.google.com/file/d/1IW-nRGqLC9mTpgPBCr2i5hpxJXrXp__s/view?usp=sharing
+ Video Game
 ---
 Role
 Company
@@ -14,14 +15,16 @@ Date (i.e 2020-present or 2016-2023)
 https://productionimage.jpg 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
 ---
-Role
-Company
-Date (i.e 2020-present or 2016-2023)
-https://productionimage.jpg 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
+Technical Character Artist
+Creadits
+Dead By Daylight
+2022-2023
+https://drive.google.com/file/d/1UiO_GlBfMNohrKOVHaDOGwNuVAV0QH_8/view?usp=sharing
+Commercial / Advertisement
 ---
-Role
-Company
-Date (i.e 2020-present or 2016-2023)
-https://productionimage.jpg 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
+Technical Character Artist
+Creadits
+Marvel Contest of Champions
+2022
+https://drive.google.com/file/d/1QwOK2Nvs5JG3gUMCqdJ-Np1MsF8STkAW/view?usp=sharing
+Commercial / Advertisement
