@@ -127,7 +127,7 @@ p {
 
 .nav-button.active, .nav-button:hover {
     background-color: #171717;
-    color: #f5ba13;
+    color: #33FFAC;
 }
 
 @media (max-width: 600px) {
