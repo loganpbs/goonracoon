@@ -6,6 +6,7 @@
     width: 100%;
     min-height: 350px;
     overflow: hidden;
+    padding-bottom: 60px; /* Space for dots */
 }
 
 .recommendation {
@@ -19,6 +20,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
 }
 
 .recommendation.active {
@@ -26,6 +28,16 @@
     opacity: 1;
     visibility: visible;
     position: relative;
+}
+
+.recommendation-exit-left,
+.recommendation-enter-right {
+    transform: translateX(-100%);
+}
+
+.recommendation-exit-right,
+.recommendation-enter-left {
+    transform: translateX(100%);
 }
 
 .recommendation-header {
@@ -112,19 +124,13 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        min-height: 450px; /* Adjust the minimum height for mobile */
-        position: relative; /* Add relative positioning */
-        padding-bottom: 60px; /* Ensure enough space for dots */
+        min-height: 450px;
+        padding-bottom: 60px;
     }
 
     .recommendation {
-        transition: transform 0.5s ease, opacity 0.5s ease;
         flex-grow: 1;
-        margin-bottom: 60px; /* Add margin to create space for dots */
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
+        margin-bottom: 60px;
     }
 
     .recommendation-enter-left {
@@ -188,37 +194,37 @@
     }
 
     .recommendation-avatar {
-        width: 80px; /* Smaller avatar size for mobile */
-        height: 80px; /* Smaller avatar size for mobile */
-        margin-right: 10px; /* Adjust margin for better spacing on mobile */
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
         margin-left: 10px;
     }
 
     .recommendation h2 {
-        font-size: 18px; /* Adjust font size for mobile */
+        font-size: 18px;
         display: flex;
         align-items: center;
     }
 
     .recommendation h3 {
-        font-size: 16px; /* Adjust font size for mobile */
+        font-size: 16px;
     }
 
     .recommendation-date {
-        font-size: 12px; /* Adjust font size for mobile */
+        font-size: 12px;
         margin-bottom: -10px;
     }
 
     .recommendation-quote {
-        font-size: 14px; /* Adjust font size for mobile */        
+        font-size: 14px;     
     }
 
     .recommendations-panel {
-        padding: 8px; /* Adjust padding for mobile */
+        padding: 8px;
     }
 
     .dot {
-        height: 10px; /* Adjust dot size for mobile */
-        width: 10px; /* Adjust dot size for mobile */
+        height: 10px;
+        width: 10px;
     }
 }

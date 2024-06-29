@@ -60,27 +60,24 @@ document.addEventListener("DOMContentLoaded", async () => {
         let currentIndex = 0;
         let isTransitioning = false;
 
-        function showRecommendation(index, direction) {
-            if (isTransitioning) return;
+        function showRecommendation(index) {
+            if (isTransitioning || index === currentIndex) return;
             isTransitioning = true;
 
             const current = recommendationsElements[currentIndex];
             const next = recommendationsElements[index];
 
-            if (direction === 'left') {
-                current.classList.add('recommendation-exit-left');
-                next.classList.add('recommendation-enter-right');
-            } else if (direction === 'right') {
-                current.classList.add('recommendation-exit-right');
-                next.classList.add('recommendation-enter-left');
-            }
+            const direction = index > currentIndex ? 'left' : 'right';
+            current.classList.add(`recommendation-exit-${direction}`);
+            next.classList.add(`recommendation-enter-${direction === 'left' ? 'right' : 'left'}`);
 
             setTimeout(() => {
-                current.classList.remove('active', 'recommendation-exit-left', 'recommendation-exit-right');
+                current.classList.remove('active', `recommendation-exit-${direction}`);
                 next.classList.add('active');
-                next.classList.remove('recommendation-enter-left', 'recommendation-enter-right');
+                next.classList.remove(`recommendation-enter-${direction === 'left' ? 'right' : 'left'}`);
                 currentIndex = index;
                 isTransitioning = false;
+                adjustHeight();
             }, 500); // Match the CSS transition duration
 
             dots.forEach((dot, i) => {
@@ -88,27 +85,18 @@ document.addEventListener("DOMContentLoaded", async () => {
             });
         }
 
-        function debounce(func, wait) {
-            let timeout;
-            return function(...args) {
-                const context = this;
-                clearTimeout(timeout);
-                timeout = setTimeout(() => func.apply(context, args), wait);
-            };
-        }
-
-        const debouncedShowRecommendation = debounce((index, direction) => showRecommendation(index, direction), 500);
-
         dotsContainer.addEventListener("click", (event) => {
             if (event.target.classList.contains('dot')) {
                 const index = parseInt(event.target.dataset.index, 10);
-                if (index > currentIndex) {
-                    debouncedShowRecommendation(index, 'left');
-                } else if (index < currentIndex) {
-                    debouncedShowRecommendation(index, 'right');
-                }
+                showRecommendation(index);
             }
         });
+
+        // Auto-rotate recommendations every 5 seconds
+        setInterval(() => {
+            const nextIndex = (currentIndex + 1) % recommendationsElements.length;
+            showRecommendation(nextIndex);
+        }, 5000);
 
         // Swipe detection
         let startX;
@@ -128,10 +116,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                 let newIndex;
                 if (diffX > 0) {
                     // Swiped left
-                    newIndex = (currentIndex + 1) % recommendations.length;
+                    newIndex = (currentIndex + 1) % recommendationsElements.length;
                 } else {
                     // Swiped right
-                    newIndex = (currentIndex - 1 + recommendations.length) % recommendations.length;
+                    newIndex = (currentIndex - 1 + recommendationsElements.length) % recommendationsElements.length;
                 }
                 showRecommendation(newIndex);
                 isSwiping = false;
