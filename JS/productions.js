@@ -6,9 +6,6 @@ function createProductionCard(title, company, time, thumbnail, description) {
     const img = document.createElement("img");
     img.src = thumbnail;
     img.alt = title;
-    img.onerror = () => {
-        img.src = 'path/to/fallback-image.jpg'; // Fallback image
-    };
 
     const detailsDiv = document.createElement("div");
     detailsDiv.classList.add("production-details");
@@ -18,11 +15,11 @@ function createProductionCard(title, company, time, thumbnail, description) {
 
     const companyElem = document.createElement("p");
     companyElem.textContent = company;
-    companyElem.classList.add("company-name"); // Use CSS class
+    companyElem.style.fontWeight = "bold"; // Inline style for bold text
 
     const timeElem = document.createElement("p");
     timeElem.textContent = time;
-    timeElem.classList.add("production-time"); // Use CSS class
+    timeElem.style.fontStyle = "italic"; // Inline style for italic text
 
     // Append text elements to the detailsDiv
     detailsDiv.appendChild(titleElem);
@@ -69,7 +66,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         productions.forEach((prod, index) => {
             const lines = prod.split('\n').map(line => line.trim()).filter(line => line && !line.startsWith('#'));
-            if (lines.length >= 5) { // Handle cases where there might be extra lines
+            if (lines.length === 5) {
                 const card = createProductionCard(lines[0], lines[1], lines[2], lines[3], lines[4]);
                 fragment.appendChild(card);
             } else {

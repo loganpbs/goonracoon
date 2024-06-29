@@ -3,9 +3,9 @@
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
 Character and Prop Artist
-Quell
+Quell 2023-2024
 Shardfall
-2023-2024
+https://github.com/loganpbs/goonracoon/blob/main/Resources/Thumbnails/ShardFall.png?raw=true
 
  Video Game
 ---
@@ -17,15 +17,14 @@ Paragon Englace : Orion Stronghold
 Video Game
 ---
 Technical Character Artist
-Creadits
+Creadits 2022 - 2023
 Dead By Daylight
-2022-2023
+https://github.com/loganpbs/goonracoon/blob/main/Resources/Thumbnails/DBDMobile.jpg?raw=true
 
 Commercial / Advertisement
 ---
 Technical Character Artist
-Creadits
+Creadits 2022
 Marvel Contest of Champions
-2022
-
+https://github.com/loganpbs/goonracoon/blob/main/Resources/Thumbnails/MarvelCOC.png?raw=true
 Commercial / Advertisement
