@@ -20,14 +20,14 @@
 }
 
 .user-name-link:hover {
-  color: #33FFAC; /* Example hover color */
+  color: #edb049; /* Example hover color */
 }
 
 .user-info-panel h1 {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 5px;
-  color: #33FFAC;
+  color: #edb049;
 }
 
 .profile-pic {
@@ -55,7 +55,7 @@
 }
 
 .social-icons a:hover {
-  color: #33FFAC !important;;
+  color: #edb049 !important;;
 }
 
 .user-location-container {

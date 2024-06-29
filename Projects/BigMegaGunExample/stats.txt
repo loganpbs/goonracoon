@@ -1,13 +1,13 @@
-Triangles: 39.000
+Triangles: 
 
 Materials: 
 
-Texture Size: 2k
+Texture Size: 
 
 Texel Density: 
 
 Workflow: 
 
-Target Engine: Unreal Engine 5
+Target Engine: 
 
-Collaborators: Decals by Andreas Doel
+Collaborators:
