@@ -8,6 +8,6 @@ Texel Density:
 
 Workflow: 
 
-Target Engine: 
+Target Engine: Unreal Engine 5
 
-Collaborators:
+Collaborators: Decals by Andreas Doel

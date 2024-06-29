@@ -6,4 +6,4 @@ Fusion360, Blender, Photoshop, Substance 3D Painter, Marmoset Toolbag 4
 ---
 https://github.com/loganpbs/goonracoon/blob/main/Resources/RevolverR8/FrontView.png?raw=true
 ---
-bigmegagun.html
+Revolver.html

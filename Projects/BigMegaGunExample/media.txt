@@ -4,7 +4,7 @@ Descriptions go under each image like this! png/jpeg/jpg/gif supported.
 https://example2.jpg
 Description for example2.jpg.
 
-https://example3.gif
+https://github.com/loganpbs/goonracoon/blob/main/Resources/RevolverR8/Revolver_Camera%203_002.png?raw=true
 These aren't real images but need replacing with your own.
 
 https://examplevideo.mp4
