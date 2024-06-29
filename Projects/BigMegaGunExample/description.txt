@@ -1,9 +1,9 @@
-Project Name
+Revolver
 ---
-Project Description
+M&P R8 revolver
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+Fusion360, Blender, Photoshop, Substance 3D Painter, Marmoset Toolbag 4
 ---
-thumbnail url (gets injected into your landing page) 
+https://github.com/loganpbs/goonracoon/blob/main/Resources/RevolverR8/FrontView.png?raw=true
 ---
-name of project html ("bigmegagun.html" for example - make sure you rename the template html)
+bigmegagun.html
