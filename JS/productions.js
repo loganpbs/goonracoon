@@ -6,6 +6,9 @@ function createProductionCard(title, company, time, thumbnail, description) {
     const img = document.createElement("img");
     img.src = thumbnail;
     img.alt = title;
+    img.onerror = () => {
+        img.src = 'path/to/fallback-image.jpg'; // Fallback image
+    };
 
     const detailsDiv = document.createElement("div");
     detailsDiv.classList.add("production-details");
@@ -15,11 +18,11 @@ function createProductionCard(title, company, time, thumbnail, description) {
 
     const companyElem = document.createElement("p");
     companyElem.textContent = company;
-    companyElem.style.fontWeight = "bold"; // Inline style for bold text
+    companyElem.classList.add("company-name"); // Use CSS class
 
     const timeElem = document.createElement("p");
     timeElem.textContent = time;
-    timeElem.style.fontStyle = "italic"; // Inline style for italic text
+    timeElem.classList.add("production-time"); // Use CSS class
 
     // Append text elements to the detailsDiv
     detailsDiv.appendChild(titleElem);
@@ -60,18 +63,13 @@ document.addEventListener("DOMContentLoaded", async () => {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }
         const text = await response.text();
-        
-        // Split the text into individual production entries
         const productions = text.split('---').map(prod => prod.trim()).filter(prod => prod);
 
         const fragment = document.createDocumentFragment();
 
         productions.forEach((prod, index) => {
-            // Split each production entry into lines
             const lines = prod.split('\n').map(line => line.trim()).filter(line => line && !line.startsWith('#'));
-            
-            // Check if the lines array has exactly 5 elements
-            if (lines.length === 5) {
+            if (lines.length >= 5) { // Handle cases where there might be extra lines
                 const card = createProductionCard(lines[0], lines[1], lines[2], lines[3], lines[4]);
                 fragment.appendChild(card);
             } else {
