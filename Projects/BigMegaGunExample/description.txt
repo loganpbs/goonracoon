@@ -1,9 +1,9 @@
-Project Name
+M&P R8 Revolver
 ---
 Project Description
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+Fusion360, Blender, Substance 3D painter, Photoshop, Marmoset Toolbag 4
 ---
-thumbnail url (gets injected into your landing page) 
+https://cdnb.artstation.com/p/assets/images/images/077/273/035/large/logan-arna-frontview.jpg
 ---
 bigmegagun.html

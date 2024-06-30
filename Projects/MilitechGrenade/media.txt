@@ -1,0 +1,36 @@
+
+
+https://cdna.artstation.com/p/assets/images/images/065/852/496/large/logan-arna-tripple.jpg
+Descriptions go under each image like this! png/jpeg/jpg/gif supported.
+
+
+
+https://cdna.artstation.com/p/assets/images/images/065/852/474/large/logan-arna-fallenside.jpgs
+more
+
+https://cdna.artstation.com/p/assets/images/images/065/852/500/large/logan-arna-tripplenice.jpg
+back side
+
+https://cdna.artstation.com/p/assets/images/images/065/852/482/large/logan-arna-front-test2.jpg
+BackCloser
+
+https://cdnb.artstation.com/p/assets/images/images/065/852/715/large/logan-arna-colasingleside.jpg
+Description for example2.jpg.
+
+https://cdna.artstation.com/p/assets/images/images/065/852/706/large/logan-arna-colasingle.jpg
+flashlight turnaround
+
+https://cdna.artstation.com/p/assets/images/images/065/852/698/large/logan-arna-pepsisingleside.jpg
+Threequarters view
+
+https://cdna.artstation.com/p/assets/images/images/065/852/690/large/logan-arna-pepsisingle.jpg
+Red Dot Turnaround
+
+
+https://cdnb.artstation.com/p/assets/images/images/065/853/151/large/logan-arna-wireframe.jpg
+Wireframes
+
+
+https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true // https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true
+You can create before and after slider by seperating two urls with ' // ' 
+

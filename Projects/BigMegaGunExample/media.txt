@@ -1,17 +1,44 @@
-https://example1.png
+
+
+https://cdnb.artstation.com/p/assets/images/images/077/273/035/large/logan-arna-frontview.jpg
 Descriptions go under each image like this! png/jpeg/jpg/gif supported.
 
-https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true
+
+
+https://cdna.artstation.com/p/assets/images/images/077/272/110/large/logan-arna-revolver-camera-4-003.jpg
+more
+
+https://cdnb.artstation.com/p/assets/images/images/077/272/889/large/logan-arna-revolver-camera-3-001.jpg
+back side
+
+https://cdnb.artstation.com/p/assets/images/images/077/272/877/large/logan-arna-revolver-camera-2-001.jpg
+BackCloser
+
+https://cdna.artstation.com/p/assets/images/images/077/272/124/large/logan-arna-backpistol.jpg
 Description for example2.jpg.
 
-https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true
-These aren't real images but need replacing with your own.
+https://cdnb.artstation.com/p/assets/images/images/077/272/117/large/logan-arna-flashlightturnaround.jpg
+flashlight turnaround
 
-https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true
-MP4's are also supported but like with images should be hosted somewhere like dropbox.
+https://cdna.artstation.com/p/assets/images/images/077/272/886/large/logan-arna-revolver-camera-3-002.jpg
+Threequarters view
+
+https://cdna.artstation.com/p/assets/images/images/077/273/298/large/logan-arna-revolver-camera-4-004.jpeg
+Red Dot Turnaround
+
+https://cdna.artstation.com/p/assets/images/images/077/272/122/large/logan-arna-justflashlight.jpg
+flashlight Laying
+
+https://cdna.artstation.com/p/assets/images/images/077/272/882/large/logan-arna-revolver-camera-1-004.jpg
+TopView
+
+https://cdnb.artstation.com/p/assets/images/images/077/273/791/large/logan-arna-mapspacked.jpg
+Map packing
+
+https://cdna.artstation.com/p/assets/images/images/077/272/112/large/logan-arna-wireframes.jpg
+Wireframes
+
 
 https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true // https://github.com/loganpbs/goonracoon/blob/main/Resources/MoonChild/Clay1.png?raw=true
 You can create before and after slider by seperating two urls with ' // ' 
 
-https://sketchfab.com/3d-models/laocoon-and-his-sons-649111a9a7b74ddab3937292be5545fc
-you can also embed sketchfab files by pasting the url, no need for direct embedd urls. 

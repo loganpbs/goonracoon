@@ -1,0 +1,14 @@
+Militech Grenade Concept Fan art
+---
+Added fusion 360 recently to my arsenal and this is the second concept I'm trying to recreate.
+Its a fanart Militech grenade from the game Cyberpunk 2077.
+Made in fusion, optimized in Blender roughly around 8.4k tris.
+Added some flare with a second batch of textures taken from well known soda companies.
+The inspiration came from Filippo Ubertino and his lovely renders of grenades for the aforementioned game.
+Here's a link to his profile : https://www.artstation.com/futurior
+---
+Fusion360, Blender, Substance 3D painter, Photoshop, Marmoset Toolbag 4
+---
+https://cdna.artstation.com/p/assets/images/images/065/852/496/large/logan-arna-tripple.jpg
+---
+MilitechGrenade.html

@@ -1,0 +1,13 @@
+Triangles: 39.000
+
+Materials: 
+
+Texture Size: 2k
+
+Texel Density: 
+
+Workflow: 
+
+Target Engine: Unreal Engine
+
+Collaborators:  Decals : Andreas ''Doel'' Tripos

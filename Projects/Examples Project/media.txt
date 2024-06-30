@@ -1,4 +1,4 @@
-https://example1.png
+https://github.com/loganpbs/goonracoon/blob/b707b1aede9282275e0eaaa072b8bf96b0834009/Resources/MoonChild/Clay2.png
 Descriptions go under each image like this! png/jpeg/jpg/gif supported.
 
 https://example2.jpg
