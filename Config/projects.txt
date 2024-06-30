@@ -1,2 +1,2 @@
-Example Project
+Examples Project
 BigMegaGunExample
