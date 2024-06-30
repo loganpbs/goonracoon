@@ -16,7 +16,7 @@
 
 .user-name-link {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /* Inherit color from parent */
 }
 
 .user-name-link:hover {
@@ -43,19 +43,18 @@
   gap: 1rem;
   opacity: 1;
   transition: opacity 0.5s;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  color: grey !important; 
+  margin: 5px 0 10px;
+  color: grey; /* Removed !important */
 }
 
 .social-icons a {
-  color: #272727 !important;
+  color: #272727; /* Removed !important */
   font-size: 24px;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #33FFAC !important;
+  color: #33FFAC; /* Removed !important */
 }
 
 .user-location-container {
@@ -67,7 +66,7 @@
 
 .material-symbols-outlined {
   font-size: 1.2em; /* Adjust the size of the icon */
-  color: grey !important; 
+  color: grey; /* Removed !important */
 }
 
 .user-location-container h2 {
